@@ -23,7 +23,7 @@ var questions=[
 
 function play(question,options,answer){
   var optionString="";
-  
+
   options.forEach((option,index)=>{
     optionString+=`\n${index}.${option}`
   })
@@ -34,6 +34,7 @@ function play(question,options,answer){
   }
   else{
     console.log("You are Wrong!");
+    
   }
 
   }
